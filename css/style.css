@@ -1,0 +1,191 @@
+
+.bot {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 10em;
+	width: 10em;
+	background-color: lightblue;
+	border-radius: 50%;
+}
+
+.inside-bot {
+	height: 8em;
+	width: 8em;
+	background-color: rgb(190, 226, 240);
+	border-radius: 50%;
+	margin: auto auto;
+	margin-top: 30%;
+}
+
+.liquid {
+	height: 8em;
+	width: 8em;
+	background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgb(194, 52, 194));
+	border-radius: 4% 4% 100% 100%;
+}
+
+
+.neck {
+	height: 4em;
+	width: 2.5em;
+	background-color: lightblue;
+	margin: auto auto;
+	margin-top: -30%;
+}
+.neck-inside {
+	height: 6em;
+	width: 1.3em;
+	background-color: rgb(190, 226, 240);
+	margin: auto auto;
+	margin-top: -30%;
+}
+
+.neck-top {
+	height: 1em;
+	width: 3.2em;
+	background-color: lightblue;
+	margin: auto auto;
+	margin-top: -40%;
+	border-radius: 10%;
+}
+
+.buble {
+	height: 1em;
+	width: 1em;
+	background: linear-gradient(rgba(255, 255, 255, 0), rgb(194, 52, 194));
+	border-radius: 50%;
+}
+
+.buble1 {
+	position: absolute;
+	left: 50%;
+	top: 70%;
+    animation-name: burst1;
+    animation-duration: 11s;
+	animation-iteration-count: infinite;
+	animation-delay: 4s;
+}
+
+@keyframes burst1 {
+	0% {
+		opacity: 0.7;
+		top: 70%;
+	}
+	100% {
+		opacity: 0;
+		top: -90%;
+	}
+}
+
+
+.buble2 {
+	height: 1.5em;
+	width: 1.5em;
+	position: absolute;
+	left: 40%;
+	top: 70%;
+	animation-name: burst2;
+	animation-duration: 11s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes burst2 {
+	0% {
+		opacity: 0.7;
+		top: 70%;
+	}
+	100% {
+		opacity: 0;
+		top: -90%;
+	}
+}
+
+.buble3 {
+	height: 1.4em;
+	width: 1.4em;
+	position: absolute;
+	left: 45%;
+	top: 75%;
+	background: linear-gradient(rgba(255, 255, 255, 0), rgba(194, 52, 194, .7));
+	animation-name: burst3;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: 7s;
+}
+
+@keyframes burst3 {
+	0% {
+		opacity: 0.8;
+		top: 75%;
+	}	
+	100% {
+		opacity: 0;
+		top: -100%;
+	}
+}
+
+.buble4 {
+	position: absolute;
+	left: 40%;
+	top: 75%;
+	background: linear-gradient(rgba(255, 255, 255, 0), rgba(194, 52, 194, .7));
+	animation-name: burst4;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes burst4 {
+	0% {
+		top: 75%;
+		opacity: 0.7;
+	}
+	100% {
+		top: 40%;
+		opacity: 0;
+	}
+}
+.buble5 {
+	position: absolute;
+	left: 65%;
+	top: 70%;
+	background: linear-gradient(rgba(255, 255, 255, 0), rgba(194, 52, 194, .7));
+	animation-name: burst5;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes burst5 {
+	0% {
+		top: 70%;
+		opacity: 0.8;
+	}
+	100% {
+		top: 50%;
+		opacity: 0;
+	}
+}
+
+.buble6 {
+	height: 1.5em;
+	width: 1.5em;
+	position: absolute;
+	left: 20%;
+	top: 65%;
+	background: linear-gradient(rgba(255, 255, 255, 0), rgba(194, 52, 194, .7));
+	animation-name: burst6;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes burst6 {
+	0% {
+		top: 65%;
+		opacity: 0.8;
+	}
+	100% {
+		top: 40%;
+		opacity: 0;
+	}
+}
